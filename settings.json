@@ -1,0 +1,30 @@
+{
+  "workbench.settings.editor": "json",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 16,
+
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fontFamily": "'Ubuntu Mono', monospace",
+  "terminal.integrated.letterSpacing": 0.7,
+  "editor.tabCompletion": "on",
+  "workbench.colorTheme": "Material Theme Darker",
+  "editor.fontFamily": "Operator Mono",
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "explorer.decorations.badges": false,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#fff9",
+    "editorLineNumber.activeForeground": "#ffdf00",
+    "tab.activeBorder": "#a976ca",
+    "tab.activeBorderTop": "#a976ca",
+    "scrollbarSlider.hoverBackground": "#fff",
+    "scrollbarSlider.activeBackground": "#e3e3e3"
+  },
+  "workbench.activityBar.visible": false
+}
