@@ -1,0 +1,58 @@
+Creating a new application
+
+Console Errors and Warnings
+// Ignore all log notifications:
+LogBox.ignoreAllLogs();
+
+Storing Sensitive Info
+npm install react-native-dotenv
+npm install react-native-config
+
+Async Storage
+npm install @react-native-async-storage/async-storage
+
+Android guides
+  app/build.gradle minSdkVersion=24
+Manifest.permission
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+
+  android:windowSoftInputMode="adjustPan"
+  android:screenOrientation="portrait"
+
+iOS guides
+  minimum ios version 12
+  Info.plist
+    <key>NSCameraUsageDescription</key>
+    <string>This allows you to pick picture</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This allows you to select picture</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location When In Use Usage Description</string>
+  react-native-permissions
+      permissions_path = '../node_modules/react-native-permissions/ios'
+      pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+      pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+
+APP ICON
+SPLASH Screen
+
+
+Accessing console logs
+npx react-native log-ios
+npx react-native log-android
+
+
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install redux
+npm install redux-thunk
+npm install -g react-devtools
+npm i react-native-webview
+npm i react-native-svg react-native-masked-text react-native-permissions react-native-image-crop-picker react-native-iphone-x-helper react-native-keyboard-manager
