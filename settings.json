@@ -46,3 +46,81 @@
   },
   "workbench.activityBar.visible": false
 }
+
+// workbench
+  "workbench.settings.editor": "json",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.enablePreviewFromCodeNavigation": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.restoreViewState": false,
+  // breadcrumbs
+  "breadcrumbs.enabled": false,
+  //   files
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 60000,
+  "files.defaultLanguage": "javascript",
+  //   editor
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   bracket
+  "editor.guides.bracketPairs": "active",
+  "editor.matchBrackets": "always",
+  "editor.autoClosingBrackets": "always",
+  "editor.guides.bracketPairsHorizontal": "active",
+  //   minimap
+  "editor.minimap.enabled": false,
+  //   cursor
+  "editor.cursorSmoothCaretAnimation": false,
+  //   fontSize
+  "editor.fontSize": 16,
+  "editor.fontFamily": "SFMono-Regular",
+  "editor.lineHeight": 28,
+  "editor.fontLigatures": true,
+  //   suggestion
+  "javascript.suggestionActions.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.insertSpaces": true,
+  "editor.tabCompletion": "onlySnippets",
+  "editor.hover.delay": 900,
+  "editor.minimap.side": "left",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "editor.tabSize": 2,
+  "editor.codeLens": false,
+  "editor.autoIndent": "advanced",
+  "editor.linkedEditing": false,
+  "explorer.decorations.badges": false,
+  "explorer.fileNesting.enabled": true,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.cursorStyle": "line",
+  "extensions.autoCheckUpdates": false,
+  "telemetry.telemetryLevel": "off",
+  "search.collapseResults": "alwaysCollapse",
+  "scm.diffDecorations": "none",
+  "editor.largeFileOptimizations": true,
+  "window.title": "${rootName}${separator}${activeEditorShort}${separator}${activeEditorMedium}",
+
+  "editor.renderWhitespace": "boundary",
+  "search.showLineNumbers": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.detectIndentation": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.wordBasedSuggestions": false,
+  "editor.snippetSuggestions": "inline",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+
+    // "source.organizeImports": true
+  },
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast"
