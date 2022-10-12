@@ -44,10 +44,19 @@ APP ICON
 SPLASH Screen
 
 
-Accessing console logs
-npx react-native log-ios
-npx react-native log-android
+Creating textinput lists
+Regular
+Email
+Mobile Number
+Password
+DropDown
 
+
+Bank Details
+  Bank Name
+  Account Number
+  Account Holder Name
+  IFSC Code
 
 npm install react-redux
 npm install @reduxjs/toolkit
