@@ -1,0 +1,161 @@
+{
+  "ScrollIndicatorFalse": {
+    "prefix": "indf",
+    "body": [
+      "showsVerticalScrollIndicator={false}",
+      "showsHorizontalScrollIndicator={false}",
+      "bounces={false}"
+    ],
+    "description": "ScrollIndicatorFalse"
+  },
+  "react native class component": {
+    "prefix": "rnc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "import { StyleSheet, Text, View } from 'react-native';",
+      "",
+      "class $TM_FILENAME_BASE extends Component {",
+      "  constructor(props) {",
+      "    super(props);",
+      "    this.state = {};",
+      "  }",
+      "",
+      "  render() {",
+      "    return (",
+      "      <View style={styles.mainContainer}>",
+      "        <Text>$TM_FILENAME_BASE</Text>",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "const styles = StyleSheet.create({",
+      "  mainContainer: {",
+      "    flex: 1,",
+      "  },",
+      "});",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "react native class component"
+  },
+  "react native functional component": {
+    "prefix": "rnf",
+    "body": [
+      "import React from 'react';",
+      "import { StyleSheet, Text, View } from 'react-native';",
+      "",
+      "const $TM_FILENAME_BASE = ({ route, navigation }) => {",
+      "  return (",
+      "    <View style={styles.mainContainer}>",
+      "      <Text>$TM_FILENAME_BASE</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;",
+      "",
+      "const styles = StyleSheet.create({",
+      "  mainContainer: {",
+      "    flex: 1,",
+      "  },",
+      "});",
+      ""
+    ],
+    "description": "react native functional component"
+  },
+  "center": {
+    "prefix": "center",
+    "body": ["justifyContent: \"center\",", "alignItems: \"center\","],
+    "description": "center"
+  },
+  "componentDidMount": {
+    "prefix": "cdm",
+    "body": ["componentDidMount() {", "", "}"],
+    "description": "Invoked once, only on the client (not on the server), immediately after the initial rendering occurs."
+  },
+  "isAllValid": {
+    "prefix": "isAllValid",
+    "body": [
+      "isAllValid = () => {};",
+      "handle${1:name} = () => {",
+      "  if (this.isAllValid()) {",
+      "  }",
+      "};"
+    ],
+    "description": "isAllValid"
+  },
+  "navigate": {
+    "prefix": "navigate",
+    "body": ["this.props.navigation.navigate('${1}');"],
+    "description": "navigate"
+  },
+  "pop": {
+    "prefix": "pop",
+    "body": ["this.props.navigation.pop();"],
+    "description": "pop"
+  },
+  "imptheme": {
+    "prefix": "imptheme",
+    "body": [
+      "import {",
+      "  ComponentsMatrix,",
+      "  MyTheme,",
+      "  RFValue,",
+      "  colors,",
+      "  fontFamily,",
+      "  fontSize,",
+      "  getHeight,",
+      "  getWidth,",
+      "  globalStyles,",
+      "  hp,",
+      "  onePercentOfScreenHeight,",
+      "  onePercentOfScreenWidth,",
+      "  rgba,",
+      "  screenHeight,",
+      "  screenWidth,",
+      "  wp,",
+      "} from '@theme';"
+    ],
+    "description": "imptheme"
+  },
+  "font": {
+    "prefix": "font",
+    "body": [
+      "fontFamily: fontFamily.Book,",
+      "fontSize: fontSize.f16,",
+      "color: colors.dark,"
+    ],
+    "description": "font"
+  },
+  "fontl": {
+    "prefix": "fontl",
+    "body": [
+      "fontFamily: fontFamily.Book,",
+      "fontSize: fontSize.f16,",
+      "color: colors.dark,",
+      "lineHeight: fontSize.f18,"
+    ],
+    "description": "fontl"
+  },
+  "pbm": {
+    "prefix": "pbm",
+    "body": ["paddingBottom: ComponentsMatrix.COMMON_BOTTOM_MARGIN,"],
+    "description": "pbm"
+  },
+  "contentContainerStyle": {
+    "prefix": "ccs",
+    "body": [
+      "contentContainerStyle={{",
+      "  flexGrow: 1,",
+      "  paddingBottom: ComponentsMatrix.COMMON_BOTTOM_MARGIN,",
+      "}}"
+    ],
+    "description": "contentContainerStyle"
+  },
+  "borderWidth:1": {
+    "prefix": "bw1",
+    "body": ["borderWidth:1"],
+    "description": "borderWidth:1"
+  }
+}
